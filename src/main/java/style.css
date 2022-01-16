@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#game{
+    width: 320px;
+    height: 568px;
+    margin: auto;
+}
+
+
+
+#gameStart{
+    width: 100%;
+    height: 100%;
+    background: url(image/ks.png);
+    position: relative;
+}
+
+#gameStart span {
+    width: 160px;
+    height: 40px;
+    display: block;
+    background: #ccc;
+    border: 4px solid #666;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    position: absolute;
+    left: 80px;
+    bottom: 200px;
+    cursor: pointer;
+}
+
+#gameStart span:hover {
+    color:#fff;
+}
+
+
+#gameEnter {
+    width: 100%;
+    height: 100%;
+    background: url(image/background_1.png);
+    position: relative;
+    display: none;
+}
+
+
+#myPlane {
+    width: 66px;
+    height: 80px;
+    position: absolute;
+    left: 127px;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+#myPlane{
+    width: 66px;
+    height: 80px;
+}
+
+#bullets,#enemys {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.b {
+    width: 6px;
+    height: 14px;
+    position: absolute;
+}
+.e{
+    position: absolute;
+}
+

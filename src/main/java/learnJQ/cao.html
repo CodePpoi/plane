@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--    //rel是什么-->
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="obj0.js"></script>
+
+</head>
+<body>
+<button id="test1">append操作</button>
+
+<table class="inner">
+    <tbody></tbody>
+</table>
+
+</body>
+
+<script>
+  $('#test1').click(function(){
+    let innerArr=document.querySelectorAll(".inner")
+    ajQuery.append(innerArr,'<tr><td>test1</td></tr>')
+  })
+</script>
+</html>
